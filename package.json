@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +14,8 @@
     "babel-loader": "^6.2.4",
     "babel-preset-es2015-native-modules": "^6.6.0",
     "babel-preset-react": "^6.16.0",
-    "webpack": "^2.1.0-beta.26"
+    "webpack": "^2.1.0-beta.26",
+    "webpack-dev-server": "^2.1.0-beta.12"
   },
   "dependencies": {
     "eventemitter3": "^2.0.2",
